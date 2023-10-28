@@ -1,0 +1,30 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/card.css);
+@import url(./styles/cardjuliana.css);
+@import url(./styles/topicos.css);
+@import url(./styles/email.css);
+@import url(./styles/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+:root{
+    --cor-fundo:#e4e4e4;
+    --branco: #FFFFFF;
+    --cinza: grey;
+    --laranja: #EB9B00;
+    --azul: rgba(0, 47, 82, 1);
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 'Josefin Sans', sans-serif;
+    --cinza-footer: #474646;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}

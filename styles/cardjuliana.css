@@ -1,0 +1,33 @@
+
+.estrelas{
+    margin-bottom: 0.5rem;
+}
+.card-autor{
+    display: flex;
+    justify-content:space-between;
+}
+
+.descricao-autor{
+    font-family: var(--fonte-principal);
+}
+
+.autor-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.autor-nome{
+    margin: 0.5rem 0;
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.autor-sobre{
+    font-size: 0.9rem;
+}
+
+.autor-foto{
+    border-radius: 0.25rem;
+    padding-bottom: 1.2rem;
+}

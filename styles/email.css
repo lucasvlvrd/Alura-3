@@ -1,0 +1,86 @@
+
+.email{
+    padding: 1rem ;
+    background-color: var(--branco);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(190, 190, 190);
+    border-bottom-width:2px;
+}
+
+.email-titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--azul);
+    font-size: 1.1rem;
+}
+
+.email-descricao{
+    margin: 0.75rem 0;
+    width: 80%;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.email-inserir::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    padding-left: 3rem;
+}
+
+.email-inserir{
+    background-image: url(../assets/Email.svg);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    border-style: solid;
+    align-items:center;
+    width: 53%;
+    padding: 0.5rem 0;
+    background-position: 1.5rem
+}
+
+@media screen and (min-width: 1024px){
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email-titulo{
+        font-size: 1.5rem;
+    }
+    .email-descricao{
+        font-size: 1rem;
+    }
+
+
+    .email-inserir{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .email{
+        padding: 3rem 0;
+    }
+
+    .email-titulo{
+        font-size: 2rem;
+    }
+
+    .email-descricao{
+        font-size: 1.5rem;
+    }
+
+    .email-inserir{
+        width: 30%;
+    }
+
+    .email-inserir::placeholder{
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-align: justify;
+        padding-left: 3rem;
+    }
+}
